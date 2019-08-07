@@ -1,0 +1,478 @@
+.view,body,html{
+    height:100%;
+}
+
+body{
+
+    background-size: cover;
+    background-position:top ;
+    background-repeat: repeat-y;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar{
+    background: transparent;
+    box-shadow: none !important;
+    color: #1C2331;
+}
+.navbar-brand{
+    text-align: left;
+}
+.navbar-brand img{
+    max-width:25%;
+}
+.page-footer{
+    background: #1C2331;
+}
+.top-nav-collapse{
+    background-color:#fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+}
+
+.navbar-collapse ul li a{
+    color: black !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+.view{
+  
+    max-width: 100%;;
+    height: 100%;
+}
+
+
+h5.modal-title{
+    font-weight: 600;
+}
+
+h1.mask-heading{
+    margin-top: 20%;
+    /* position: absolute;
+    top: 10%; */
+    font-size: 66px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    color: black;
+}
+/* Who we are */
+.kinetic-intro{
+    margin-top: 100px;
+    background: url('../img/poter1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+.intro-overlay{
+    padding: 50px;
+     /* background: rgba(255, 223, 0, 0.5); */
+     background: rgba(0,0,0,.8);
+}
+
+.kinteic-intro-container{
+    margin: 75px 0;
+    display: block;
+    position: relative;
+}
+
+.kinteic-intro-heading{
+    padding: 25px 0 50px 0;
+    text-align: center;
+   
+}
+.kinteic-intro-heading h1{
+    font-weight: 800;
+    font-size: 42px;
+    color: #000;
+    text-transform: uppercase;
+}
+.kinetic-intro-details{
+    text-align: center;
+    justify-content: -webkit-center;
+    margin: 50px 0;
+    display: flex;
+}
+
+.kinetic-intro-details img{
+    max-width: 100%;
+}
+
+
+
+.kinetic-features{
+    /* background: url('../img/liquid-bg/Webpage1.png'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100%;
+    padding-top: 50px  ;
+}
+.kinetic-features-container{
+    margin: 75px 0;
+    display: block;
+    position: relative;
+}
+.features-heading{
+    padding: 50px 0;
+    text-align: center;
+   
+
+}
+.features-heading h1{
+    font-weight: 800;
+    font-size: 42px;
+    color: #000;
+    text-transform: uppercase;
+}
+.featurs-row{
+    text-align: center;
+    justify-content: -webkit-center;
+    margin: 25px 0;
+    display: flex;
+}
+.featurs-row .col-md-4{
+margin: 30px 0;
+}
+.featurs-row img{
+    max-width: 30%;
+
+}
+.features-detail{
+    position: relative;
+    margin: 18px;
+    font-size: 14px !important;
+    font-weight: 700 !important; 
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.featurs-row img:hover{
+    /* max-width:40%; */
+    transform: scale(1.3);
+    overflow: auto;
+    -webkit-transition: margin 0.5s ease-out;
+    transition: 0.5s;
+    /* box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12); */
+}
+
+
+.kinetic-kit{
+    padding-top: 50px ;
+}
+.kinetic-kit-container{
+    margin: 50px 0;
+    display: block;
+    position: relative;
+}
+.kinetic-kit-heading{
+    padding: 50px 0;
+    text-align: center;
+}
+.kinetic-kit-heading h1{
+    
+    font-weight: 800;
+    font-size: 42px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.surprising-kit{
+    text-align: center;
+    margin: 50px 0;
+    display: block;
+}
+
+.myimgdivtoggle{
+    display:none;
+    margin: 20px 0;
+}
+
+.img-thumbnail{
+    justify-content: center;
+    border: none;
+    max-width: 80%;
+    border-radius: 50%;
+    /* background: #ffdf00; */
+}
+
+
+
+/* Cities Section */
+.kinetic-cities{
+    /* background: url('../img/liquid-bg/webpage4.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;;
+    height: 100%;;
+    text-align: center;
+    padding: 50px 0;
+    display: block;
+}
+
+.kinetic-cities-container{
+    margin: 75px 0;
+    display: block;
+    position: relative;
+}
+
+.kinetic-city-heading{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.kinetic-city-heading h1{
+    
+    font-weight: 800;
+    font-size: 42px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.cities-row{
+    text-align: center;
+    justify-content: -webkit-center;
+    margin: 25px 0;
+    display: flex;
+}
+.search-bar{
+    padding-left: 18%;
+    margin: 15px 0 45px 0;
+}
+
+.cities-row .col-md-4{
+    margin: 30px 0;
+    }
+.cities-row .kinetic-city-img{
+    max-width: 80%;
+}
+
+.city-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Companies Section */
+.our-people{
+    padding-top: 50px ;
+}
+
+.our-people-container{
+    margin: 75px 0;
+    position: relative;
+    display: block;
+}
+
+.our-people-heading{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.our-people-heading h1{
+    
+    font-weight: 800;
+    font-size: 42px;
+    color: #000;
+}
+
+.company-row{
+    text-align: center;
+    justify-content: -webkit-center;
+    margin: 50px 0;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+.company-row .col-md-3{
+    margin: 20px 0;
+    }
+
+img.img-responsive{
+    max-width: 50%;;
+}
+
+
+/* Footer */
+
+.deep-purple.accent-2{
+    background: #ffdf00 !important;
+}
+.kinetic-kitchen{
+    padding-top: 50px ;
+}
+.kinetic-kitchen-container{
+    margin: 75px 0;
+    display: block;
+    position: relative;
+}
+.kinetic-kitchen-heading {
+    
+    padding: 25px 0 50px 0;
+    text-align: center;
+}
+.kinetic-kitchen-heading h1{
+    
+    font-weight: 800;
+    font-size: 48px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.kitchen-row{
+    justify-content: center;
+    padding: 10px 45px;
+}
+
+.kitchen-row .card{
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: none;
+    justify-content: center;
+    text-align: -webkit-center;
+    background: url('../img/liquid-bg/webpage2.png');  
+    transition-delay: 0.2s;
+}
+
+.kitchen-row .card:hover{  
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+
+}
+.kitchen-row  .col-md-4{
+    padding: 0 30px;
+}
+.kitchen-row img{
+    padding: 45px 0;
+    width: 25%;
+    height: auto !important;
+}
+
+
+.kitchen-row .card-title{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #000 ;
+}
+.kitchen-row .col-md-4{
+    margin:  20px 0;
+}
+
+h6.mb-0{
+    color: #1C2331;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background: none;
+    }
+    
+    
+    .navbar {
+        background: #fff;
+        color: #000 !important; 
+    } 
+    .top-nav-collapse{
+        color: #000 !important;
+    }
+    .navbar-collapse {
+        text-align: -webkit-right;
+    }
+    .navbar-brand img{
+        max-width: 25%;
+    }
+    h1.mask-heading{
+        margin-top: 0;
+        /* position: absolute;
+        top: 10%; */
+        font-size: 36px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+    }
+    .features-heading h1{
+        font-weight: 800;
+        font-size: 32px;
+    }
+    .row .kinetic-img{
+        order: 1 !important;
+    }
+    .kinetic-kit-heading h1{
+    
+        font-weight: 800;
+        font-size: 32px;
+    }
+    .col-6 img{
+        max-width: 50%;
+    }
+
+    .col-6 .features-detail{
+        font-size: 12px !important;
+    }
+
+    img.togglebtn{
+        max-width: 50% !important;
+    }
+    .img-thumbnail{
+        max-width: 50%;
+    }
+    .kinetic-city-heading h1{
+    
+        font-weight: 800;
+        font-size: 32px;
+        color: #000;
+        text-transform: uppercase;
+    }
+    .city-name{
+        font-size: 15px;
+    }
+    .kinteic-intro-heading h1{
+        font-weight: 800;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    .kinetic-kitchen-heading h1{
+    
+        font-weight: 800;
+        font-size: 32px;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    .our-people-heading h1{
+    
+        font-weight: 800;
+        font-size: 32px;
+        color: #000;
+    }
+  
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width:768px){
+    .navbar{background-color:#1C2331
+    }
+} */
